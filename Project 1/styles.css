@@ -9,12 +9,13 @@ h2,
 h3 {
     font-size: 14px;
     line-height: 10px;
+    font-style: italic;
 }
 
 h1,
 h2,
 h3 {
-    background-color: whitesmoke;
+    background-color: #f7f7f7;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -25,15 +26,15 @@ p {
     font-size: 15px;
     line-height: 20px;
     padding-top: 30px;
-    background-color: whitesmoke;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #f7f7f7;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 30px;
 }
 
 body {
-    font-family: sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-family: serif;
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: rgb(157, 0, 0);
 }
