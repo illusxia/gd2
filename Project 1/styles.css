@@ -5,16 +5,14 @@ h1 {
     line-height: 50px;
 }
 
-h2,
-h3 {
-    font-size: 14px;
-    line-height: 10px;
+h2 {
+    font-size: 15px;
+    line-height: 20px;
     font-style: italic;
 }
 
 h1,
-h2,
-h3 {
+h2 {
     background-color: #f7f7f7;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -23,7 +21,7 @@ h3 {
 
 p {
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     padding-top: 30px;
     background-color: #f7f7f7;
