@@ -1,38 +1,56 @@
+body {
+
+    padding-left: 120px;
+    padding-right: 120px;
+    max-width: 700px;
+    min-width: 500px;
+    background-color: rgb(113, 17, 17);
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f7f7f7;
+    max-width: 200px;
+    min-width: 400px;
+    padding: 30px;
+    margin: 30px auto;
+    border: 5px solid rgb(255, 189, 67);
+}
+
+h1,
+h2 {
+    font-family: 'Spectral', serif;
+    text-align: center;
+}
+
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500px;
+    margin: 0;
     color: rgb(0, 0, 0);
     line-height: 50px;
 }
 
 h2 {
-    font-size: 15px;
-    line-height: 20px;
-    font-style: italic;
+    font-size: 13px;
+    line-height: 10px;
 }
 
-h1,
-h2 {
-    background-color: #f7f7f7;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
 
-p {
+
+main {
     color: rgb(0, 0, 0);
     font-size: 16px;
     line-height: 20px;
-    padding-top: 30px;
     background-color: #f7f7f7;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
+    padding: 30px 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 8px solid rgb(255, 189, 67);
 }
 
-body {
-    font-family: serif;
-    padding-left: 120px;
-    padding-right: 120px;
-    background-color: rgb(157, 0, 0);
+.pquote {
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    line-height: 55px;
 }
