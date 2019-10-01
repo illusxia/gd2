@@ -24,7 +24,7 @@ h2 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 500px;
     margin: 0;
     color: rgb(0, 0, 0);
@@ -32,19 +32,20 @@ h1 {
 }
 
 h2 {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 10px;
 }
 
 
 
 main {
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    line-height: 20px;
+    text-indent: 50px;
+    color: rgba(81, 10, 10, 0.857);
+    font-size: 20px;
+    line-height: 40px;
     background-color: #f7f7f7;
     padding: 30px 50px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'baskerville', serif;
     border: 8px solid rgb(255, 189, 67);
 }
 
@@ -53,4 +54,5 @@ main {
     font-size: 55px;
     font-style: italic;
     line-height: 55px;
+    color: rgb(196, 6, 6);
 }
