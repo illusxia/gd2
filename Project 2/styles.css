@@ -1,0 +1,67 @@
+section {
+    background-color: #fff7e5;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px 30px;
+
+}
+
+body {
+    color: rgb(44, 59, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    font-size: 30px;
+    left: 340px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    border: solid 1px palevioletred;
+    clear: left;
+    border-radius: 20%;
+
+}
+
+.left {
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 12px;
+    position: relative;
+    bottom: 20px;
+}
+
+.price {
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+
+.buy-now {
+    border-radius: 40px;
+    background-color: rgba(95, 172, 126, 0.755);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+    position: relative;
+    right: 10px;
+}
+
+.add-to-cart,
+.favorite {
+    border-radius: 40px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
