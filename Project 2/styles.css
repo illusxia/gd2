@@ -1,0 +1,103 @@
+section {
+    background-color: #fff7e5;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 80px;
+    border: solid rgb(255, 211, 226) 2px;
+
+}
+
+body {
+    color: rgb(44, 59, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.right {
+    float: right;
+    width: 290px;
+}
+
+img {
+    border: solid 1px palevioletred;
+    clear: both;
+    border-radius: 20%;
+
+}
+
+.left {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 12px;
+    position: relative;
+    bottom: 20px;
+    top: 70px;
+    left: 10px;
+}
+
+.price {
+    font-size: 25px;
+    margin: 5px;
+    padding: 0;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: rgba(95, 172, 126, 0.755);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+    position: relative;
+    right: 10px;
+    color: white;
+}
+
+a:hover {
+    background-color: palevioletred;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: all 1s;
+
+}
+
+svg {
+    width: 50px;
+    padding: 10px;
+    bottom-margin: 0;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+}
