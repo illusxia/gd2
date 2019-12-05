@@ -3,6 +3,10 @@ input[type="checkbox"] {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
+    border: 2px solid white;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
 }
 
 /* font-family: 'BenchNine', sans-serif; */
@@ -61,7 +65,7 @@ p {
 }
 
 .right-column {
-    float: right;
+
     margin-right: 1px;
     margin-bottom: 12px;
     border: transparent;
