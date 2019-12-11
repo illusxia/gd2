@@ -1,1 +1,14 @@
 /* do things with padding and not margin */
+
+nav {
+    font-size: 18px;
+    display: inline, block;
+}
+
+/* media querie below */
+@media (min-width: 600px) {
+
+    nav {
+        color: lightskyblue;
+    }
+}
