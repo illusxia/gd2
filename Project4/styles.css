@@ -1,8 +1,60 @@
-/* do things with padding and not margin */
+/* do things with padding and not margin 
+James Montgomery Flagg*/
+.wrap-color {
+    background-color: lightyellow;
+}
+
+header {
+    background-color: lightseagreen;
+    padding: 10px;
+    /* how do i get it to stay flushed with the edges */
+    margin-right: 0px;
+    color: whitesmoke;
+}
+
 
 nav {
     font-size: 18px;
-    display: inline, block;
+    display: inline;
+    color: white;
+
+}
+
+.timedate {
+
+    max-width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 10px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+main {
+    margin: 15px;
+    background-color: white;
+    padding: 25px;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 75%;
+    margin: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.buynow {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 45px;
+    padding: 15px;
+    max-width: 100px;
+    background-color: rgb(34, 182, 111);
 }
 
 /* media querie below */
