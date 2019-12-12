@@ -65,16 +65,22 @@ p {
 
 
 /* media querie below */
-@media((min-width:300px) {
-        #speakers {
-            max-width: 150px;
-        }
+
+
+@media (min-width: 600px) {
+
+    body {
+        max-width: 600px;
+        margin: auto;
     }
 
-    @media (min-width: 600px) {
-
-        body {
-            max-width: 600px;
-            margin: auto;
-        }
+    nav {
+        text-align: center;
+        list-style: none;
     }
+
+    .speakers {
+        border: 1px solid grey;
+        margin: auto;
+    }
+}
