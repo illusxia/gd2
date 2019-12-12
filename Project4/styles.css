@@ -47,7 +47,7 @@ p {
     font-size: 15px;
 }
 
-.buynow {
+.a {
     font-size: 20px;
     color: white;
     text-align: center;
@@ -63,4 +63,22 @@ p {
     nav {
         color: lightskyblue;
     }
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
 }
