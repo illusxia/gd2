@@ -15,9 +15,13 @@ header {
 
 nav {
     font-size: 18px;
-    display: inline;
+    display: inline inline-block;
     color: white;
+    list-style: none;
+}
 
+a {
+    display: inline-block;
 }
 
 .timedate {
@@ -47,7 +51,7 @@ p {
     font-size: 15px;
 }
 
-.a {
+.buynow {
     font-size: 20px;
     color: white;
     text-align: center;
@@ -57,28 +61,20 @@ p {
     background-color: rgb(34, 182, 111);
 }
 
+
+
+
 /* media querie below */
-@media (min-width: 600px) {
-
-    nav {
-        color: lightskyblue;
+@media((min-width:300px) {
+        #speakers {
+            max-width: 150px;
+        }
     }
-}
 
-.clearfix::after {
-    clear: both;
-    content: "";
-    display: block;
-}
+    @media (min-width: 600px) {
 
-.u-button-reset {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    padding: 0;
-    text-align: inherit;
-    text-decoration: none;
-}
+        body {
+            max-width: 600px;
+            margin: auto;
+        }
+    }
