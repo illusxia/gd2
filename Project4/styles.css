@@ -1,5 +1,10 @@
 /* do things with padding and not margin 
 James Montgomery Flagg*/
+li {
+    list-style: none;
+    display: inline-block;
+}
+
 .wrap-color {
     background-color: lightyellow;
 }
@@ -20,8 +25,13 @@ nav {
     list-style: none;
 }
 
+h2:not(.timedate) {
+    border-bottom: 3px solid lightsalmon;
+    max-inline-size: 175px;
+}
+
 h3 {
-    border-bottom: rgb(255, 0, 0) 1px solid;
+    border-bottom: rgb(88, 81, 137) 1px solid;
 }
 
 .timedate {
@@ -65,15 +75,22 @@ p {
 }
 
 a {
-    padding: 5px 15px;
-    color: white;
+    padding: 8px 15px;
+    color: rgb(169, 78, 42);
     font-size: 15px;
-    background-color: red;
+    background-color: palegoldenrod;
+    border-radius: 25px;
 
 
 }
 
+li a:hover {
 
+    background-color: lightsalmon;
+    transition: all 500ms;
+    color: white;
+
+}
 
 
 /* media querie below */
