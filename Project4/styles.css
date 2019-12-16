@@ -1,0 +1,115 @@
+/* do things with padding and not margin 
+James Montgomery Flagg*/
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.wrap-color {
+    background-color: lightyellow;
+}
+
+header {
+    background-color: lightsalmon;
+    padding: 10px;
+    /* how do i get it to stay flushed with the edges */
+    box-align: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+nav {
+    font-size: 18px;
+    color: white;
+    list-style: none;
+}
+
+h2:not(.timedate) {
+    border-bottom: 3px solid lightsalmon;
+    max-inline-size: 175px;
+}
+
+h3 {
+    border-bottom: rgb(88, 81, 137) 1px solid;
+}
+
+.timedate {
+
+    max-width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 10px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+main {
+    margin: 15px;
+    background-color: white;
+    padding: 25px;
+
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 75%;
+    margin: 10px;
+    align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+#buynow {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 45px;
+    padding: 15px;
+    max-width: 100px;
+    background-color: rgb(34, 182, 111);
+}
+
+a {
+    padding: 8px 15px;
+    color: rgb(169, 78, 42);
+    font-size: 15px;
+    background-color: palegoldenrod;
+    border-radius: 25px;
+
+
+}
+
+li a:hover {
+
+    background-color: lightsalmon;
+    transition: all 500ms;
+    color: white;
+
+}
+
+
+/* media querie below */
+
+
+@media (min-width: 600px) {
+
+    body {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    nav {
+        text-align: center;
+        list-style: none;
+    }
+
+    .speakers {
+        border: 1px solid grey;
+        margin: auto;
+    }
+}
