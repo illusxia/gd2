@@ -1,110 +1,130 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="styles.css">
-<link href="https://fonts.googleapis.com/css?family=BenchNine:300,400,700|Teko:300,400,500,600,700&display=swap"
-    rel="stylesheet">
-<title>Document</title>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=BenchNine:300,400,700|Teko:300,400,500,600,700&display=swap"
+        rel="stylesheet">
+    <title>superhero signup sheet</title>
 </head>
 
 <body>
 
     <form action="">
-        <h2>IDENTITY</h2>
-        <label for="real-name">Real Name</label>
+        <h2>identity</h2>
+        <label for="real-name">real name</label>
         <input id="real-name" type="text" required>
 
-        <label for="alias"> Alias </label>
+        <label for="alias"> alias </label>
         <input id="alias" type="text" required>
 
-        <label for="email"> Email </label>
+        <label for="email"> email </label>
         <input id="email" type="text" required>
 
-        <h2>PERSONAL<br> CHARACTERISTICS</h2>
+        <h2>personal charateristics</h2>
 
-        <label for="age"> Age </label>
+        <label for="age"> age </label>
         <input id="age" type="number" required>
 
         <fieldset class="left-column">
-            <legend>Category</legend>
+            <legend>category</legend>
             <p>Please select as many as apply to your origin and how you gained your powers.</p>
 
             <div>
                 <input name="category" id="alien" type="checkbox">
-                <label for="alien">Alien</label>
+                <label for="alien">alien</label>
             </div>
 
             <div><input name="category" id="cyborg" type="checkbox">
-                <label for="cyborg">Cyborg</label></div>
+                <label for="cyborg">cyborg</label></div>
 
             <div><input name="category" id="experiment" type="checkbox">
-                <label for="experiment">Experiment</label></div>
+
+                <label for="experiment">experiment</label></div>
+
+
 
             <div> <input name="category" id="human" type="checkbox">
-                <label for="human">Human</label></div>
+
+                <label for="human">human</label></div>
+
+
 
             <div><input name="category" id="inhuman" type="checkbox">
-                <label for="inhuman">Inhuman</label></div>
+
+                <label for="inhuman">inhuman</label></div>
+
+
 
             <div><input name="category" id="mutant" type="checkbox">
-                <label for="mutant">Mutant</label>
+
+                <label for="mutant">mutant</label>
+
             </div>
+
+
         </fieldset>
 
+
+
         <fieldset class="right-column">
-            <legend>Gender</legend>
+
+            <legend class="clearfix">gender</legend>
             <div><input name="gender" id="woman" type="radio">
-                <label for="woman">Woman</label></div>
+                <label for="woman">woman</label></div>
 
             <div><input name="gender" id="man" type="radio">
-                <label for="man">Man</label></div>
+                <label for="man">man</label></div>
 
             <div><input name="gender" id="nonbinary" type="radio">
-                <label for="nonbinary">Nonbinary</label></div>
+                <label for="nonbinary">nonbinary</label></div>
 
             <div><input name="gender" id="genderqueer" type="radio">
-                <label for="genderqueer">Genderqueer/Genderfluid</label></div>
+                <label for="genderqueer">genderqueer/ genderfluid</label></div>
 
             <div><input name="gender" id="no-answer" type="radio">
-                <label for="no-answer">Prefer not to answer</label></div>
+                <label for="no-answer">prefer not to answer</label></div>
 
             <div><input name="gender" id="self-describe" type="radio">
-                <label for="self-describe">Prefer to self describe</label>
+                <label for="self-describe">prefer to self describe</label>
                 <input name="gender" id="self-describe-answer" type="text"></div>
         </fieldset>
 
-        <section>
-            <h2>Powers & Abilities</h2>
-            <label for="powers">Describe Your Powers</label>
+        <section class="clearfix">
+            <h2>powers & abilities</h2>
+            <label for="powers">describe your powers</label>
             <textarea id="powers"></textarea>
 
-            <label for="abilities">Rate Your Abilities</label>
+            <legend> rate your abilities</legend>
 
-            <label for="strength">Strength</label>
+            <label for="strength">strength</label>
             <select id="strength">
-                <option value="norm">Within Human Norms</option>
-                <option value="noticeable">Noticeably Above Norms</option>
-                <option value="significant">Significantly Beyond Norms</option>
-                <option value="wild">Wildy Beyond Norms</option>
-                <option value="unlimited">Unlimited</option>
+                <option value="norm">within human norms</option>
+                <option value="noticeable">noticeably above norms</option>
+                <option value="significant">significantly beyond norms</option>
+                <option value="wild">wildy beyond norms</option>
+                <option value="unlimited">unlimited</option>
             </select>
 
-            <label for="speed">Speed</label>
+            <label for="speed">speed</label>
             <select id="speed">
-                <option value="norm">Within Human Norms</option>
-                <option value="noticeable">Noticeably Above Norms</option>
-                <option value="significant">Significantly Beyond Norms</option>
-                <option value="wild">Wildy Beyond Norms</option>
-                <option value="unlimited">Unlimited</option>
+                <option value="norm">within human norms</option>
+                <option value="noticeable">noticeably above norms</option>
+                <option value="significant">significantly beyond norms</option>
+                <option value="wild">wildy beyond norms</option>
+                <option value="unlimited">unlimited</option>
             </select>
 
-            <label for="intelligence">Intelligence</label>
+            <label for="intelligence">intelligence</label>
             <select id="intelligence">
-                <option value="norm">Within Human Norms</option>
-                <option value="noticeable">Noticeably Above Norms</option>
-                <option value="significant">Significantly Beyond Norms</option>
-                <option value="wild">Wildy Beyond Norms</option>
-                <option value="unlimited">Unlimited</option>
+                <option value="norm">within human norms</option>
+                <option value="noticeable">noticeably above norms</option>
+                <option value="significant">significantly beyond norms</option>
+                <option value="wild">wildy beyond norms</option>
+                <option value="unlimited">unlimited</option>
             </select>
         </section>
 
@@ -116,3 +136,6 @@
     <img src="/img/your-filename.svg" alt="">
 
     <!-- As always, don't forget the ALT attribute 👍 -->
+</body>
+
+</html>
