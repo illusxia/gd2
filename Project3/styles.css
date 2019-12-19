@@ -1,0 +1,130 @@
+/* font-family: 'BenchNine', sans-serif; */
+/* all width 800px 1024px 1120px (form) */
+body {
+    box-sizing: content-box;
+    position: relative;
+    background-color: #163346;
+    padding: 16px;
+    margin: auto;
+    width: 300px;
+    font-family: 'BenchNine', sans-serif;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 2px solid white;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+form {
+    background-color: #1e2019;
+    padding: 8px;
+    width: 250px;
+
+}
+
+h2,
+label,
+legend,
+p {
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+    border-bottom: #163346 solid 3px;
+    text-transform: uppercase;
+
+
+}
+
+label,
+legend,
+p {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+label,
+legend,
+option {
+    text-transform: capitalize;
+}
+
+
+.left-column {
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+    border: transparent;
+
+}
+
+.right-column {
+
+    margin-right: 1px;
+    margin-bottom: 12px;
+    border: transparent;
+
+}
+
+.button-reset {
+    background-color: rgb(62, 115, 62);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-top: 16px;
+    font-size: 18px;
+
+}
+
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+textarea,
+input[type="text"] {
+    width: 230px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 16px;
+}
+
+@media (max-width:300px) {
+
+    body {
+        margin: auto;
+    }
+
+    .left-column,
+    .right-column {
+        float: inline-start;
+    }
+}
