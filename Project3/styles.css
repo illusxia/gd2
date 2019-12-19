@@ -7,7 +7,7 @@ body {
     padding: 16px;
     margin: auto;
     width: 300px;
-    font-family: "BenchNine", sans-serif;
+    font-family: 'BenchNine', sans-serif;
 }
 
 input[type="radio"],
@@ -25,6 +25,7 @@ form {
     background-color: #1e2019;
     padding: 8px;
     width: 250px;
+
 }
 
 h2,
@@ -35,20 +36,23 @@ p {
 }
 
 h2 {
-    font-family: "Teko", sans-serif;
+    font-family: 'Teko', sans-serif;
     font-weight: 500;
     font-size: 35px;
     line-height: 32px;
     border-bottom: #163346 solid 3px;
     text-transform: uppercase;
+
+
 }
 
 label,
 legend,
 p {
-    font-family: "BenchNine", sans-serif;
+    font-family: 'BenchNine', sans-serif;
     font-size: 18px;
     font-weight: 800;
+
 }
 
 label,
@@ -57,6 +61,41 @@ option {
     text-transform: capitalize;
 }
 
+
+.left-column {
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+    border: transparent;
+
+}
+
+.right-column {
+
+    margin-right: 1px;
+    margin-bottom: 12px;
+    border: transparent;
+
+}
+
+.button-reset {
+    background-color: rgb(62, 115, 62);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-top: 16px;
+    font-size: 18px;
+
+}
+
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
 
 input,
 select,
@@ -78,39 +117,10 @@ input[type="number"] {
     padding: 16px;
 }
 
-@media (max-width: 300px) {
+@media (max-width:300px) {
+
     body {
         margin: auto;
-    }
-
-    .left-column {
-        float: left;
-        margin-right: 1px;
-        margin-bottom: 12px;
-        margin-top: 16px;
-        border: transparent;
-    }
-
-    .right-column {
-        margin-right: 1px;
-        margin-bottom: 12px;
-        border: transparent;
-    }
-
-    .button-reset {
-        background-color: rgb(62, 115, 62);
-        border-radius: 15px;
-        padding: 8px;
-        color: white;
-        font-family: "Teko", sans-serif;
-        margin-top: 16px;
-        font-size: 18px;
-    }
-
-    .clearfix::after {
-        clear: both;
-        content: "";
-        display: block;
     }
 
     .left-column,
